@@ -3124,9 +3124,21 @@ input, select, textarea {
 			height: 101%;
 			padding: 6em 3em;
 			top: 0;
+			width: 20em;
+		}
+		
+		.spotlight.leftMain .content {
+			height: 101%;
+			padding: 6em 3em;
+			top: 0;
 			width: 28em;
 		}
 
+		.spotlight.leftMain .content {
+			border-right-width: 0.35em;
+			left: 0;
+		}
+		
 		.spotlight.left .content {
 			border-right-width: 0.35em;
 			left: 0;
@@ -3203,7 +3215,7 @@ input, select, textarea {
 			background: #8455e0;
 			background-attachment: fixed;
 			background-color: #272833;
-			background-image: url("../../images/KeyArt500.png");
+			background-image: url("../../images/DRLBackground.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3464,6 +3476,27 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		z-index: 21;
+	}
+	
+	@media screen and (max-width: 767px) {   
+		#banner{
+			background-image: url("../../images/keyartdef1080.png");
+		} 
+	}
+	@media screen and (min-width: 768px) {      
+		#banner{      
+			background-image: url("../../images/keyartdef1080.png");
+		} 
+	} 
+	@media (min-width: 992px) {      
+		  #banner{        
+			  background-image: url("../../images/keyartdef1080.png");
+		  } 
+	}
+	@media (min-width: 1200px) {    
+		 #banner{         
+			 background-image: url("../../images/keyartdef1080.png");
+		 } 
 	}
 
 		#banner:before {
