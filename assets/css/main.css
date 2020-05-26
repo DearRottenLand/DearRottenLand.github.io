@@ -3480,12 +3480,12 @@ input, select, textarea {
 	
 	@media screen and (max-width: 767px) {   
 		#banner{
-			background-image: url("../../images/keyartdef1080.png");
+			background-image: url("../../images/keyartDiferentes767.png");
 		} 
 	}
 	@media screen and (min-width: 768px) {      
 		#banner{      
-			background-image: url("../../images/keyartdef1080.png");
+			background-image: url("../../images/keyartDiferentes992.png");
 		} 
 	} 
 	@media (min-width: 992px) {      
